@@ -2,11 +2,11 @@
   --color-brand--1: #ffb545;
   --color-brand--2: #00c46a;
 
-  --color-dark--1: #2d3439;
-  --color-dark--2: #42484d;
-  --color-light--1: #aaa;
-  --color-light--2: #ececec;
-  --color-light--3: rgb(214, 222, 224);
+  --color-dark--1: #f0cae4;
+  --color-dark--2: #b765f2;
+  --color-light--1: rgb(250, 196, 241);
+  --color-light--2: #181117;
+  --color-light--3: rgb(124, 243, 241);
 }
 
 * {
@@ -175,7 +175,7 @@ a:visited {
   margin-top: auto;
   font-size: 1.3rem;
   text-align: center;
-  color: var(--color-light--1);
+  color: #00c46a;
 }
 
 .twitter-link:link,
@@ -217,4 +217,8 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+
+#hung {
+  color: #00c46a;
 }
